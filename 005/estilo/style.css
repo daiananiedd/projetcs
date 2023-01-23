@@ -1,0 +1,133 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --cor01:#FFF2E7;
+    --cor02: #2F2325;
+    --righteous: 'Righteous', sans-serif;
+    --sarala: 'Sarala', sans-serif;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body{
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.header-img{
+    height: 72px;
+}
+
+.header-nav{
+    display: flex;
+    gap: 32px;
+}
+
+.header-nav-item{
+    font-family: var(--sarala);
+    color: var(--cor01);
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.main{
+    border-top: 0.3px solid var(--cor01);
+    margin-bottom: 40px;
+}
+
+.main-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.main-principal-text{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+.main-principal-title{
+    font-family: var(--righteous);
+    font-weight: 400;
+    font-size: 64px;
+    color: var(--cor01);
+}
+
+.main-principal-caption{
+    font-family: var(--sarala);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor01);
+}
+
+.main-principal-button{
+    background-color: var(--cor01);
+    width: 180px;
+    height: 60px;
+    border: none;
+    box-shadow:  4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-family: var(--sarala);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor02);
+}
+
+.main-principal-button:hover{
+    background-color: rgba(236, 214, 196, 0.53);
+}
+
+.main-principal-img{
+    height: 430px;
+}
+
+.main-secondary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+    margin-top: 48px;
+}
+
+.main-secondary-title{
+    border-top: 0.3px solid var(--cor01);
+    padding-top: 48px;
+    font-family: var(--righteous);
+    font-weight: 400;
+    font-size: 24px;
+    color: var(--cor01);
+    margin-bottom: 16px;
+}
+
+.main-secondary-p{
+    font-family: var(--sarala);
+    font-weight: 300;
+    font-size: 18px;
+    color: var(--cor01);
+}
+
+.footer{
+    padding: 32px;
+    border-top: 0.3px solid var(--cor01);
+}
+
+.footer-img{
+    height: 48px;
+    display: block;
+    margin: 0px auto;
+}
