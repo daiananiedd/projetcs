@@ -1,0 +1,13 @@
+@charset "UTF-8"; 
+
+:root{
+    --white: white;
+    --black: black;
+    --verde: #5fac8f;
+    --lilas: #6f49a0;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
