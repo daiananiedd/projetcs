@@ -1,0 +1,16 @@
+FooD PeeK
+
+Home
+About
+Menu
+Contact
+*lupa
+
+h4 - Welcome FooD PeeK
+h1 - Different spice for different tastes
+p - lorem
+a - Order yours
+
+img
+
+footer - 
