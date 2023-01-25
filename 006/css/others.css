@@ -13,6 +13,7 @@
     
     section#login{
         width: 80vw;
+        height: 320px;
     }
     section#login div#img{
         float: left;
@@ -23,6 +24,9 @@
         float: right;
         width: 63%;
     }
+    div#form p{
+        padding: 8px 0;
+    }
     
 }
 @media screen and (min-width: 992px) {
@@ -31,13 +35,14 @@
     }
     section#login{
         width: 990px;
+        height: 400px;
     }
     section#login div#img{
     float: right;
     width: 50%;
     height: 100%;
     }
-section#login div#form{
+    section#login div#form{
     float: left;
     width: 50%;
     }
@@ -46,5 +51,6 @@ section#login div#form{
     }
     div#form p{
         font-size: 1.2em;
+        padding: 14px 0;
      }
 }
