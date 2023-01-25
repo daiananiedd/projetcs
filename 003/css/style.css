@@ -1,0 +1,113 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+:root{
+    --white: #fff;
+    --brown: #2F2325;
+    --lightbrown: #8E5D52;
+
+    --righteous: 'Righteous', cursive, sans-serif;
+    --sarala: 'Sarala', sans-serif;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: var(--sarala);
+    color: var(--white);
+}
+
+body{
+    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
+}
+header{
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.header-img{
+    width: 62px;
+    height: 62px;
+}
+.header-nav{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.header-nav-item{
+    text-decoration: none;
+    font-family: var(--sarala);
+    font-size: 1em;
+    color: var(--white);
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    border-top: solid 1px var(--white);
+    margin-bottom: 40px;
+}
+.main-section01{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.section01-div-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.section01-div-text h1{
+    font-family: var(--righteous);
+    font-size: 3em;
+}
+.section01-div-text p{
+    font-size: 1em;
+    padding: 30px 0;
+    font-weight: 400;
+}
+.section01-div-text button{
+    width: 200px;
+    height: 62px;
+    background-color: #ECD6C4;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.534);
+    border: none;
+    border-radius: 20px;
+}
+.section01-div-text button a{
+    text-decoration: none;
+    color: var(--brown);
+    font-size: 1.2em;
+    font-family: var(--sarala);
+}
+.section01-div-img{
+    width: 30%;
+    height: 30%;
+}
+.section02-div-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 24px;
+}
+.section02-div-text h2{
+    font-size: 1.4em;
+    border-top: 1px solid white;
+    padding-top: 40px;
+}
+.section02-div-text p{
+    font-size: 1em;
+}
+footer{
+    border-top: 1px solid white;
+}
+.footer-img{
+    height: 78px;
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+}
