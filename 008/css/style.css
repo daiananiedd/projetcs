@@ -1,0 +1,63 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --softblue: #8bacda;
+    --cyan: #00fff7;
+    --darkblue01: #0d192b;
+    --darkblue02: #14253d;
+    --darkblue03: #2f415b;
+    --white: #ffffff;
+    --outfit: 'Outfit', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: var(--outfit);
+}
+p{
+    font-size: 18px;
+}
+body{
+    background-color: var(--darkblue01);
+    width: 100vw;
+    height: 100vh;
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-content{
+    background-color: var(--darkblue02);
+    width: 340px;
+    height: 550px;
+    border: none;
+    border-radius: 18px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
+    display: flex;
+    flex-direction: column;
+}
+.card-div-img{
+    margin: 30px auto;
+    width: 280px;
+    height: 280px;
+    background: var(--darkblue03) url(../images/image-equilibrium.jpg) no-repeat center;
+    background-size: cover;
+    border-radius: 14px;
+}
+.card-div-text{
+    padding: 0 28px;
+}
+.card-h1{
+    font-weight: 600;
+    color: var(--white);
+}
+.card-description{
+    font-weight: 300;
+    padding: 15px 0;
+    color: var(--softblue);
+}
