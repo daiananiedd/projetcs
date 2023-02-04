@@ -61,3 +61,12 @@ main{
     padding: 15px 0;
     color: var(--softblue);
 }
+.cardpt{
+    display: flex;
+    flex-direction: row;
+    color: var(--cyan);
+}
+
+.card-timer{
+
+}
