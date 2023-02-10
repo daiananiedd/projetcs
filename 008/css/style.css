@@ -34,7 +34,7 @@ main{
 .card-content{
     background-color: var(--darkblue02);
     width: 380px;
-    height: 600px;
+    min-height: 600px;
     border: none;
     border-radius: 18px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.418);
@@ -66,6 +66,11 @@ main{
     flex-direction: row;
     justify-content: space-between;
 }
+.icon{
+    padding-right: 10px;
+    width: 29px;
+    height: 24px;
+}
 .card-power{
     display: flex;
     flex-direction: row;
@@ -76,9 +81,7 @@ main{
     flex-direction: row;
     color: var(--softblue);
 }
-span{
-    padding-right: 5px;
-}
+
 .card-creator{
     display: flex;
     flex-direction: row;
@@ -97,4 +100,6 @@ span{
 }
 .card-creator img{
     width: 40px;
+    border-radius: 20px;
+    border: 1px solid white;
 }
