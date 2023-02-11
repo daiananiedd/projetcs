@@ -1,0 +1,17 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+:root{
+    --paleblue: #e0e8ff;
+    --brightblue: #3829e0;
+    --verypaleblue: #f5f7ff;
+    --desaturatedblue: #7280a7;
+    --darkblue: #1f2f56;
+
+    --redhat: Red Hat Display, arial, sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
