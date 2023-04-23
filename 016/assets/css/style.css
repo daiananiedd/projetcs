@@ -1,0 +1,56 @@
+@charset "uTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap');
+
+:root{
+    /*   gradients
+    - Light slate blue (background): hsl(252, 100%, 67%)
+    - Light royal blue (background): hsl(241, 81%, 54%)   
+    - Violet blue (circle): hsla(256, 72%, 46%, 1)
+    - Persian blue (circle): hsla(241, 72%, 46%, 0)
+    */
+
+    --lightred: #ff5757;
+    --Orangeyyellow: #ffb01f;
+    --Greenteal: #00bd91;
+    --Cobaltblue: #1125d4;
+
+
+    --White: #ffffff;
+    --Paleblue: #ebf1ff;
+    --Lightlavender: #c8c7ff;
+    --Darkgrayblue: #303b5a;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Hanken Grotesk;
+}
+p{
+    font-size: 18px
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background: var(--Paleblue); 
+}
+main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+section{
+    width: 340px;
+    padding: 10px;
+}
+main .section-result{
+    min-height: 300px;
+    background: linear-gradient(hsla(241, 81%, 54%, 0.842),hsl(241, 81%, 54%)  );
+    border-radius: 25px;
+    
+}
